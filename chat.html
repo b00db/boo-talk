@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Chat | Boo-Talk</title>
   </head>
-  <body>
+  <body class="chats-body">
     <div class="status-bar">
       <div class="status-bar__column">
         <span class="status-bar__clock">13:54</span>
@@ -41,36 +41,34 @@
         </span>
       </div>
     </header>
-    <main class="chat">
+    <main class="chat-screen">
       <ul class="chat__messages">
         <span class="chat__timestamp">Sunday, February 23, 2020</span>
         <li class="incoming-message message">
           <img src="images/avatar.jpg" class="g-avatar message__avatar" />
           <div class="message__content">
-            <span class="message_author">GitHub</span>
-            <div class="message__bubble">
+            <span class="message__bubble">
               Commit to github!
-            </div>
+            </span>
+            <span class="message__author">GitHub</span>
           </div>
-          <span class="message__timestamp"></span>
         </li>
-        <li class="incoming-message message">
+        <li class="sent-message message">
           <span class="message__timestamp"></span>
           <div class="message__content">
-            <div class="message__bubble">
+            <span class="message__bubble">
               No...!
-            </div>
+            </span>
           </div>
         </li>
         <li class="incoming-message message">
           <img src="images/avatar.jpg" class="g-avatar message__avatar" />
           <div class="message__content">
-            <span class="message_author">GitHub</span>
-            <div class="message__bubble">
+            <span class="message__bubble">
               Commit to github!
-            </div>
+            </span>
+            <span class="message__author">GitHub</span>
           </div>
-          <span class="message__timestamp"></span>
         </li>
       </ul>
     </main>
