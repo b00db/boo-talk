@@ -20,7 +20,7 @@
 }
 
 .chats-body {
-  background-image: url("../images/chatBg.png");
+  background-image: url("../images/trees.png");
   min-height: 1000vh;
 }
 
@@ -182,13 +182,13 @@
 .incoming-message .message__bubble {
   border-bottom-left-radius: 0px;
 
-  background-image: linear-gradient(to right, #c94b4b, #4b134f);
+  background-image: linear-gradient(to right, #ffdde1, #ee9ca7);
 }
 
 .sent-message .message__bubble {
   border-bottom-right-radius: 0px;
 
-  background-image: linear-gradient(to left, #44a08d, #093637);
+  background-image: linear-gradient(to left, #56ccf2, #2f80ed);
 }
 
 @keyframes incomingAnim {
